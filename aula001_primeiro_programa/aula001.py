@@ -8,11 +8,11 @@
 import os
 
 
-# Limpando o terminal
+# Limpando o terminal (cls = clear scream)
 os.system('cls')
 
 # O comando print executa uma saída via terminal
-print('-' * 70)
+print('-' * 70) # Firula
 print('Hello Word!!!')
-print('-' * 70)
+print('-' * 70) # Firula
 print()
