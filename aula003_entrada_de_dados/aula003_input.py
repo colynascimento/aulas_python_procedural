@@ -2,7 +2,7 @@
 # Turma 0152
 # Autor: Colyana Magalhães da Silva Nascimento
 # Data: 16/04/2024
-# Entrada de Dados em Python
+# Entrada de Dados e Input
 
 import os
 
