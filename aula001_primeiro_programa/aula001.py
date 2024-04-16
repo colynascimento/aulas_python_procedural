@@ -4,7 +4,7 @@
 # Data: 12/04/2024
 # Primeiro programa em Python
 
-# Importando as bibliotecas
+# Importando as bibliotecas (depois da importação tem que pular 2 linhas)
 import os
 
 
@@ -12,7 +12,7 @@ import os
 os.system('cls')
 
 # O comando print executa uma saída via terminal
-print('-' * 70) # Firula
+print('-' * 70)  # Firula
 print('Hello Word!!!')
-print('-' * 70) # Firula
+print('-' * 70)  # Firula
 print()
