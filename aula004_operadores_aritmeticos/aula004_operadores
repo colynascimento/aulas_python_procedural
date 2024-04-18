@@ -6,6 +6,7 @@
 
 import os
 
+import math
 
 # Limpar o terminal
 os.system('cls')
@@ -41,7 +42,8 @@ divisor = float(input('Entre com o divisor: '))
 print()
 print('--- RAIZ')
 print('-' * 70)
-radicando_raiz_quadrada = float(input('Entre com o radicando da raiz quadrada: '))
+radicando_raiz_quadrada = float(
+    input('Entre com o radicando da raiz quadrada: '))
 radicando_raiz_cubica = float(input('Entre com o radicando da raiz cúbica: '))
 
 # Processamento
@@ -49,8 +51,8 @@ soma = parcela_1 + parcela_2
 diferenca = minuendo - subtraendo
 produto = multiplicando * multiplicador
 divisao = dividendo / divisor
-# raiz_quadrada = radicando_raiz_quadrada ** 1/2
-# raiz_cubica = (radicando_raiz_cubica ** 1/2) ** 1/2
+raiz_quadrada = math.sqrt(radicando_raiz_quadrada)
+raiz_cubica = math.pow(radicando_raiz_cubica, 1/3)
 
 # Saída
 print('=' * 70)
