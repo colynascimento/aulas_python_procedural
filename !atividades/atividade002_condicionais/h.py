@@ -21,7 +21,6 @@ os.system('cls')
 a = 1
 b = -6
 c = 5
-x = int()
 
 # 1º - Achando delta
 delta = b ** 2 - 4 * a * c
