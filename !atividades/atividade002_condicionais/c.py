@@ -16,3 +16,13 @@ import os
 
 
 os.system('cls')
+
+# Variável
+velocidade = float(input('Insira a velocidade do carro em km/h: '))
+
+# Condicional e Saída
+if velocidade > 60:
+    print('Atenção! A velocidade atual está acima do limite permitido'
+          'de 60km/h, por favor, reduza para sua segurança.')
+else:
+    print('A velocidade do carro está adequada, mantenha o cuidado :)')
