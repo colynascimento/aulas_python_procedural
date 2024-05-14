@@ -11,7 +11,13 @@ import os
 from datetime import datetime
 from datetime import date
 
+
 os.system('cls')
+
+print('-' * 70)
+print('ESTUDO DA BIBLIOTECA DATETIME')
+print('-' * 70)
+print()
 
 # Declarando uma variável para data
 data = datetime.now()
