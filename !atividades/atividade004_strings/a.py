@@ -14,12 +14,16 @@ import os
 os.system('cls')
 
 # Entrada de dados
-nome = input('Insira o seu nome: ')
-nome_do_meio = input('Insira o seu nome do meio:')
-ultimo_nome = input('Insira o seu último nome: ')
+nome = input('Insira o seu nome: ').capitalize()
+nome_do_meio = input('Insira o seu nome do meio:').capitalize()
+ultimo_nome = input('Insira o seu último nome: ').capitalize()
 
-# Validação
+# Processamento
+lista_nome_completo = [nome, nome_do_meio, ultimo_nome]
+nome_completo = ' '.join(lista_nome_completo)
+
+# Validação e Saída
 if (nome.isnumeric() or nome_do_meio.isnumeric() or ultimo_nome.isnumeric()):
     print('Os caracteres numéricos são inválidos nesses campos.')
 else:
-    print('oi')
+    print(f'O nome seu nome completo é: {nome_completo}')
