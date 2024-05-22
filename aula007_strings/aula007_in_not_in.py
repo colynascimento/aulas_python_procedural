@@ -27,7 +27,7 @@ print('.' * 70)
 texto2 = 'Olá, Python!'
 
 print(f'Texto: {texto2}')
-if 'Mundo' not in texto2:
+if 'Mundo' not in texto2: # Verifica a palavra dentro da String
     print('A palavra "Mundo" não está presente na string.')
 else:
     print('A palavra "Mundo" está presente na string.')
