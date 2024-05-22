@@ -13,3 +13,13 @@ import os
 
 os.system('cls')
 
+# Entrada de dados
+nome = input('Insira o seu nome: ')
+nome_do_meio = input('Insira o seu nome do meio:')
+ultimo_nome = input('Insira o seu último nome: ')
+
+# Validação
+if (nome.isnumeric() or nome_do_meio.isnumeric() or ultimo_nome.isnumeric()):
+    print('Os caracteres numéricos são inválidos nesses campos.')
+else:
+    print('oi')
