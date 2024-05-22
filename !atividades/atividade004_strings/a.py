@@ -24,6 +24,6 @@ nome_completo = ' '.join(lista_nome_completo)
 
 # Validação e Saída
 if (nome.isnumeric() or nome_do_meio.isnumeric() or ultimo_nome.isnumeric()):
-    print('Os caracteres numéricos são inválidos nesses campos.')
+    print('Os caracteres numéricos são inválidos nos campos acima.')
 else:
     print(f'O nome seu nome completo é: {nome_completo}')
