@@ -11,3 +11,15 @@ import os
 
 
 os.system('cls')
+
+# Saudação
+print('-' * 70)
+print('Seja bem-vindo ao programa!')
+print('Será que você pertence a família Oliveira?')
+print('Vamos verificar!')
+print('=' * 70)
+
+# Entrada de dados
+nome = input('Digite seu nome completo: ')
+
+# Processamento
