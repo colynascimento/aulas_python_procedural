@@ -19,11 +19,10 @@ print('=' * 70)
 
 # Entrada de Dados
 nome = input('Insira seu nome completo: ')
-indice = 0
 
 # Processamento
-nome = ' '.split(nome)
-quantidade_palavras = len()
+nome = nome.split(' ')
 
-if indice in quantidade_palavras:
-    indice + 1
+# Saída
+print(f'Seu nome separado fica assim: {nome}\n')
+print('-' * 70)
