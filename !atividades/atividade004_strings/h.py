@@ -23,12 +23,15 @@ print('=' * 70)
 aluno = input('Insira o nome do aluno: ')
 
 # Processamento
-quantidade = aluno.count('o') # Tem que fazer a verificação se não houver O no nome
+quantidade = aluno.count('o')
 primeiro_o = aluno.find('o') 
-ultimo_o = aluno[::-1].find('o')
+ultimo_o = len(aluno) - aluno[::-1].find('o') - 1
 
-# Saída
-print(f'A letra O aparece {quantidade} vezes no nome do aluno\n'
+# Validação e saída
+if quantidade == 0:
+      print(f' O aluno {aluno} não contém a letra O em seu nome.')
+else: 
+      print(f'A letra O aparece {quantidade} vezes no nome do aluno\n'
       f'O primeiro O aparece no índice {primeiro_o}\n'
       f'O último O aparece no índice {ultimo_o}.\n')
 
