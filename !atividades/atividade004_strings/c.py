@@ -22,4 +22,10 @@ print('=' * 70)
 # Entrada de dados
 nome = input('Digite seu nome completo: ')
 
-# Processamento
+# Processamento e Saída
+if 'Oliveira' in nome:
+    print('True\n')
+else:
+    print('False\n')
+
+print('-' * 70)
