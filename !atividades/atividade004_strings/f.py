@@ -12,3 +12,18 @@ import os
 
 os.system('cls')
 
+print('-' * 70)
+print('Seja bem-vindo ao programa!')
+print('Vamos separar seu nome.')
+print('=' * 70)
+
+# Entrada de Dados
+nome = input('Insira seu nome completo: ')
+indice = 0
+
+# Processamento
+nome = ' '.split(nome)
+quantidade_palavras = len()
+
+if indice in quantidade_palavras:
+    indice + 1
