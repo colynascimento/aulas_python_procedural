@@ -8,6 +8,8 @@
 # • A quantidade de unidades, a quantidade de dezenas, a quantidade
 # de centenas e a quantidade de milhares.
 
+# Dica: usar divisão
+
 import os
 
 
