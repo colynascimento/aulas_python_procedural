@@ -2,7 +2,7 @@
 # Turma 0152
 # Autor: Colyana Magalhães da Silva Nascimento
 # Data: 28/05/2024
-# Aula 008 - For...Range() com Validação e Casting
+# Aula 008 - For...Range() Break
 
 import os
 
