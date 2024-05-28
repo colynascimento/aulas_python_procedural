@@ -13,7 +13,7 @@ print('-' * 70)
 print('ESTRUTURA DE CONTROLE VALIDAÇÃO E CASTING')
 print('=' * 70)
 
-soma = 0
+soma = 1
 
 for var_iteradora in range(0, 5):
     
