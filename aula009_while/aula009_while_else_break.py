@@ -2,7 +2,7 @@
 # Turma 0152
 # Autor: Colyana Magalhães da Silva Nascimento
 # Data: 28/05/2024
-# Aula 009 - Comando While Else
+# Aula 009 - Comando While Else Break
 
 import os
 
