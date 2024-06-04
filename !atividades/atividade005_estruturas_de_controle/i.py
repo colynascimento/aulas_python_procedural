@@ -8,3 +8,21 @@
 # seguida, solicite ao usuário digitar uma letra. Caso a letra seja 
 # o “f" finalize a aplicação. Do contrário, imprima novamente a mesma
 # frase até que o caractere “f" seja digitado.
+
+import os
+
+
+os.system('cls')
+
+while True:
+    
+    letra = input('Digite uma letra: ').lower()
+    
+    if letra != 'f':
+        print('Tente novamente!')
+        print(input('Digite uma letra: ').lower())
+    else:
+        print('-' * 70)
+        print('Você digitou "F" para sair!')
+        
+        break

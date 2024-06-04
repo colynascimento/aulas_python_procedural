@@ -5,3 +5,11 @@
 # Atividade 005: Estruturas de Controle
 
 # D) Faça um programa que imprima os números pares entre 0 e 100.
+
+import os
+
+
+os.system('cls')
+
+for i in range(2, 101, 2):
+    print(i)
