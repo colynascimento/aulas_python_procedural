@@ -19,8 +19,7 @@ while True:
     letra = input('Digite uma letra: ').lower()
     
     if letra != 'f':
-        print('Tente novamente!')
-        print(input('Digite uma letra: ').lower())
+        print('Estou em looping!')
     else:
         print('-' * 70)
         print('Você digitou "F" para sair!')
