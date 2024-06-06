@@ -27,7 +27,7 @@ raiz_quadrada = math.sqrt(valor)
 raiz_quadrada_arredondada = math.floor(raiz_quadrada)
 
 # Fazendo a validação do valor recebido
-if valor < 0:
+if valor <= 0:
     print(f'{valor} é negativo, logo o resultado da raiz será um número complexo.')
 elif raiz_quadrada.is_integer():
     raiz_quadrada = int(raiz_quadrada)

@@ -25,7 +25,7 @@ b = int(input('Insira o valor de b: '))
 c = int(input('Insira o valor de c: '))
 
 # Calculando delta
-delta = b ** 2 - 4 * a * c
+delta = math.pow(b, 2) - 4 * a * c
 
 # Calculando x1
 x1 = (-b + math.sqrt(delta)) / (2 * a)
@@ -34,9 +34,12 @@ x1 = (-b + math.sqrt(delta)) / (2 * a)
 x2 = (-b - math.sqrt(delta)) / (2 * a)
 
 # Saída
-print(f'As raízes da equação são {x1} e {x2}.')
+print(f'Equação de 2º com valores a a = {a}, b = {b} e c = {c} tem: ')
+print(f'Delta = {delta}')
+print(f"x' = {x1}")
+print(f'x" = {x2}')
 
-# Teste: 
+# Teste:
 # Para a = 1, b = -3, c = 2
 # x' = 2 e x" = 1
 # Para a = 1, b = -4, c = 4

@@ -23,18 +23,18 @@ print('=' * 70)
 angulo = float(input('Insira o valor do ângulo: '))
 
 # Processamento
-seno = math.sin(angulo)
-cosseno = math.cos(angulo)
-tangente = seno / cosseno
+seno = math.sin(math.radians(angulo))
+cosseno = math.cos(math.radians(angulo))
+tangente = math.tan(math.radians(angulo))
 
 # Saída
 # Validação divisão por zero
 if cosseno == 0:
     print('O cosseno não pode ser zero.')
 else:
-    print(f'O seno do triângulo é {seno:.2f}\n'
-        f'O cosseno do triângulo é {cosseno:.2f}\n'
-        f'A tangente do triângulo é {tangente:.2f}.')
+    print(f'O seno do triângulo é {seno:.2f}º\n'
+        f'O cosseno do triângulo é {cosseno:.2f}º\n'
+        f'A tangente do triângulo é {tangente:.2f}º.')
 
 print('-' * 70)
 print()
