@@ -79,3 +79,14 @@ lista_reversa = lista[::-1]
 print('-' * 70)
 print('Lista na ordem inversa: ')
 print(lista_reversa)
+
+intervalo_cinco_seis = lista[5:6]
+intervalo_onze_doze = lista[11:12]
+produto = intervalo_cinco_seis * intervalo_onze_doze
+
+print('-' * 70)
+print(f'Produto do intervalo 5-6 com o intervalo 11-12: {produto}')
+
+print('=' * 70)
+print('Fim do programa')
+print('')

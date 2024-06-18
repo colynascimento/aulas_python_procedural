@@ -21,6 +21,8 @@ lista = []
 
 for i in range(1, 11):
     numero = input(f'Insira o {i}º número da lista: ')
+    numero = int(numero)
+    lista.append(numero)
         
 print(f'A lista final ficou: {lista}')
 

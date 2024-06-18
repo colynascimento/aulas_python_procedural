@@ -21,10 +21,11 @@ lista_vogais = ['a', 'e', 'i', 'o', 'u']
 
 print(f'As vogais são {lista_vogais}')
 
-lista_inversa_vogais = lista_vogais[::-1]
+# lista_inversa_vogais = lista_vogais[::-1]
+lista_vogais.reverse()
 
 print('')
-print(f'As vogais na ordem inversa são: {lista_inversa_vogais}')
+print(f'As vogais na ordem inversa são: {lista_vogais}')
 
 print('-' * 70)
 print('Fim do programa!')
