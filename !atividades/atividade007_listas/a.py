@@ -24,16 +24,41 @@ print('Seja bem-vindo ao programa!')
 print('Vams analisar as notas dos alunos.')
 print('=' * 70)
 
-sair = ''
 i = 1
+soma = 0
+lista_notas = []
 
-while sair != 's':
+while True:
     
     nota = input(f'Insira a {i}º nota [ou digite "s" para encerrar]: ')
     
     if nota == 's':
-        sair == 's'
-    
+        break
+    else:
+        nota = float(nota)
+        lista_notas.append(nota)
+        
     
     i += 1
+    soma += nota
     
+
+quantidade_notas = i - 1
+media = soma / quantidade_notas
+
+
+print('') 
+print(f'Foram lidas {quantidade_notas} notas no total.')
+print(f'As notas informadas foram: {lista_notas}')
+
+print(f'Já as notas na ordem inversa ficam: ')
+lista_notas.reverse()
+for nota in range(len(lista_notas)):
+    print(lista_notas[nota], end='\n')
+    
+print(f'A soma de todas as notas é: {soma}')
+print(f'A média de notas dos alunos é: {media:.2f}')
+
+print('-' * 70)
+print('Fim do programa!')
+print('')
