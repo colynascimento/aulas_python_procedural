@@ -13,4 +13,7 @@ import os
 os.system('cls')
 
 for i in range(1, 101):
-    print(i)
+    print(f'{i}', end=' ')
+    if i % 25 == 0:
+        print()
+    

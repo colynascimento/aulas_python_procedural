@@ -16,4 +16,4 @@ inicio = int(input('Insira o número inicial: '))
 fim = int(input('Insira o número final: ')) + 1
 
 for i in range(inicio, fim):
-    print(i)
+    print(f'{i}', end=' ')
