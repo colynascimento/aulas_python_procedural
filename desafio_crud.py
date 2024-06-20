@@ -60,10 +60,10 @@ while True:
             
         elif comando == '2':
             
-             os.system('cls')
+            os.system('cls')
              
-             print('Editar lista: ')
-             for indice, item in lista_compras:
+            print('Editar lista: ')
+            for indice, item in enumerate(lista_compras):
                  numeracao = indice + 1
                  print(f'{numeracao}. {item}')
             
