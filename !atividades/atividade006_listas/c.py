@@ -82,7 +82,12 @@ print(lista_reversa)
 
 intervalo_cinco_seis = lista[5:6]
 intervalo_onze_doze = lista[11:12]
-produto = intervalo_cinco_seis * intervalo_onze_doze
+produto = 1
+
+for numero in intervalo_cinco_seis:
+    produto *= numero
+for numero in intervalo_onze_doze:
+    produto *= numero
 
 print('-' * 70)
 print(f'Produto do intervalo 5-6 com o intervalo 11-12: {produto}')
