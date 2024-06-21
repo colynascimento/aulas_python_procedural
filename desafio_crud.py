@@ -60,13 +60,43 @@ while True:
             
         elif comando == '2':
             
-            os.system('cls')
-             
-            print('Editar lista: ')
-            for indice, item in enumerate(lista_compras):
-                 numeracao = indice + 1
-                 print(f'{numeracao}. {item}')
+            while True:
             
-            editar_item = input('Qual o número do item que deseja editar? ')
+                os.system('cls')
+                
+                print('Editar lista: ')
+                for indice, item in enumerate(lista_compras):
+                    numeracao = indice + 1
+                    print(f'{numeracao}. {item}')
+                
+                    editar_item = input('Qual o número do item que deseja editar? ')
+                    
+                    if not editar_item.isdigit():
+                        
+                        os.system('cls')
+                        
+                        print('Por favor, digite apenas números!')
+                        continue
+                    
+                    editar_item = int(editar_item)
+                    
+                    for indice, item in enumerate(lista_compras):
+                        numeracao = indice + 1 
+                        
+                        if editar_item == numeracao:
+                            novo_item = input(f'Escreva o novo item: ')
+                            
+                            lista_compras[indice] = novo_item
+                            
+                            print(f'O item {numeracao} foi alterado!')
+                            print('Nova lista:')
+
+            # VALIDAÇÃO!
+            # O que eu quero verificar?
+            # - Se editar_item é um número
+            # - Se editar_item é um número válido dentre os itens da lista
             
-            
+            # for indice, item in enumerate(lista_compras):
+            #     numeracao = indice + 1
+            #     if numeracao == editar_item
+                
