@@ -1,5 +1,12 @@
-lista = [1, 2, 3, 4, 5]
+def soma(a, b):
+    """_summary_
 
+    Args:
+        a (_type_): _description_
+        b (_type_): _description_
 
-for item in range(len(lista)):
-    print(lista[item])
+    Returns:
+        _type_: _description_
+    """
+    resultado = a + b
+    return resultado
