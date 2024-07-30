@@ -24,7 +24,7 @@ while True:
   opcao = input('Escolha uma opção (1-5): ')
 
   if opcao == '1':
-    # Adicionar um par chav-valor ao dicionário
+    # Adicionar um par chave-valor ao dicionário
     chave = input('Digite a chave: ')
     valor = input('Digite o valor: ')
     meu_dicionario[chave] = valor
@@ -40,6 +40,7 @@ while True:
   elif opcao == '3':
     print('Saindo do programa.')
     break
+
   else:
     print('Opção inválida. Tente Novamente.')
 
