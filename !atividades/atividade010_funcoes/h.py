@@ -84,7 +84,7 @@ while True:
         break
     else:
         print('Comando inválido. Digite apenas 0, 1 ou 2.')
-        print('Aperte Enter para continuar...')
+        print('Pressione Enter para continuar...')
 
 print('Encerrando...')
 time.sleep(1)
