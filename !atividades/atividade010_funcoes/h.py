@@ -13,6 +13,8 @@
 # indefinido. Veja a saída no próximo slide.
 
 import os
+import time
+
 
 os.system('cls')
 
@@ -34,7 +36,11 @@ def cadastro():
 def exibir_dados():
     for cliente in lista_cadastros:
         for chave, valor in cliente.items():
+            if chave == 'Matrícula':
+                print('+------------------------------------------------+')
+
             print(f'{chave}: {valor}', end='\n')
+
 
     media_altura = 0
     media_peso = 0
@@ -52,8 +58,8 @@ def exibir_dados():
     print('+------------------------------------------------+')
     print('|               Média dos Clientes               |')
     print('+------------------------------------------------+')
-    print(f'|    Média de altura: {media_altura}                          |')
-    print(f'|    Média de peso: {media_peso}                               |')
+    print(f'|    Média de altura: {media_altura}                            |')
+    print(f'|    Média de peso: {media_peso}                              |')
     print('+------------------------------------------------+')
 
 while True:
@@ -70,10 +76,17 @@ while True:
 
     if opcao == '1':
         cadastro()
+        input('Pressione Enter para voltar ao Menu...')
     elif opcao == '2':
         exibir_dados()
+        input('Pressione Enter para voltar ao Menu...')
     elif opcao == '0':
         break
     else:
         print('Comando inválido. Digite apenas 0, 1 ou 2.')
         print('Aperte Enter para continuar...')
+
+print('Encerrando...')
+time.sleep(1)
+print('Fim do programa!')
+print('-' * 50)
