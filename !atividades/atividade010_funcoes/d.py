@@ -29,10 +29,6 @@ celsius = conversor_de_temperatura(fahrenheit)
 
 print('\nCalculando...')
 time.sleep(1)
-print('...')
-time.sleep(1)
-print('...')
-time.sleep(1)
 
 print(f'\nA temperatura {fahrenheit}ºF em Celsius é {celsius}ºC')
 
