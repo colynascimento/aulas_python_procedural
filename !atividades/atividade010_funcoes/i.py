@@ -68,11 +68,14 @@ while opcao == 1:
     print('+------------------------------------------------+')
     estado_quiz = definir_estado()
     resposta_quiz = input(f'|   Qual é a capital do {estado_quiz}? ').capitalize()
+    
     if verificar_resposta(estado_quiz, resposta_quiz):
         contador += 1
         print('|          Muito bem! Resposta correta :)        |')
         opcao = menu_opcoes()
-        if opcao != 1:
+        if opcao == 1:
+            continue
+        elif opcao == 2:
             break
         else:
             print('Opção inválida! Digite apenas 1 ou 2.')
