@@ -17,14 +17,24 @@ lista = [
     {'nome':'Isis', 'telefone':'(32)99196-3333', 'cidade':'Juiz de Fora'}
 ]
 
+# registro = {}
+
+# nome = input('Nome: ')
+# telefone = input('Nome: ')
+# # nome = input('Nome: ')
+# registro['nome'] = nome
+# registro['telefone'] = telefone
+
+# lista.append(registro.copy())
+
 # Caminho para a pasta onde o arquivo CSV será salvo
-pasta = 'arquivos_csv/gravacao/'
+pasta = 'aula016_arquivos/arquivos_csv/gravacao/'
 
 # Verificando se a pasta existe, se não, irá criá-la
 os.makedirs(pasta, exist_ok=True)
 
 # Nome para o arquivo CSV para gravar as informações
-arquivo = 'arquivos_csv/gravacao/alunas.csv'
+arquivo = 'aula016_arquivos/arquivos_csv/gravacao/alunas.csv'
 
 # Caminho completo do arquivo CSV
 caminho_arquivo = os.path.join(pasta, arquivo)
