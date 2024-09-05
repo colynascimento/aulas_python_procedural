@@ -8,7 +8,7 @@ import os
 
 
 from pacote.modulo_somar import somar
-from pacote.subpacote.modulo.multiplicar import multiplicar as multi
+from pacote.subpacote.modulo_multiplicar import multiplicar as multi
 from pacote.modulo_divisao import dividir
 
 while True:
