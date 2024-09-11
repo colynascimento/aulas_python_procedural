@@ -59,6 +59,8 @@ def menu_opcoes():
         return None
 
 while opcao == 1:
+    os.system('cls')
+    
     print('+------------------------------------------------+')
     print('|                 Quiz do Brasil                 |')
     print('+------------------------------------------------+')

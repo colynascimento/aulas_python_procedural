@@ -38,10 +38,22 @@ while True:
       print('O dicionário está vazio. Adicione itens primeiro.')
 
   elif opcao == '3':
+    # Mostrar os valores do dicionário usando values()
+    if meu_dicionario:
+      print('Valores do dicionário:', meu_dicionario.values())
+    else:
+      print('O dicionário está vazio. Adicione itens primeiro.')
+
+  elif opcao == '4':
+    # Mostrar os itens (chave-valor) do dicionário usando items()
+    if meu_dicionario:
+      print('Itens do dicionário:', meu_dicionario.items())
+    else:
+      print('O dicionário está vazio. Adicione itens primeiro.')
+
+  elif opcao == '5':
     print('Saindo do programa.')
     break
 
   else:
     print('Opção inválida. Tente Novamente.')
-
-
